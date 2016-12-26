@@ -7,8 +7,8 @@ tf.app.flags.DEFINE_string('data_dir', SAVE_DATA_DIR + 'data', 'Data directory')
 tf.app.flags.DEFINE_string('model_dir', SAVE_DATA_DIR + 'nn_models', 'Train directory')
 tf.app.flags.DEFINE_string('results_dir', SAVE_DATA_DIR + 'results', 'Train directory')
 
-tf.app.flags.DEFINE_float('learning_rate', 0.5, 'Learning rate.')
-tf.app.flags.DEFINE_float('learning_rate_decay_factor', 0.99, 'Learning rate decays by this much.')
+tf.app.flags.DEFINE_float('learning_rate', 0.9, 'Learning rate.')
+tf.app.flags.DEFINE_float('learning_rate_decay_factor', 0.9, 'Learning rate decays by this much.')
 tf.app.flags.DEFINE_float('max_gradient_norm', 5.0, 'Clip gradients to this norm.')
 tf.app.flags.DEFINE_integer('batch_size', 128, 'Batch size to use during training.')
 
