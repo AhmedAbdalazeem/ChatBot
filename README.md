@@ -1,10 +1,5 @@
-## tensorflow seq2seq chatbot
+## CUDA-Dockerized Implementation of Hybrid (Generative and Retrieval) Based Conversational ChatBot Model IN TensorFlow.
 
-> *Note: the repository is not maintained. Feel free to PM me if you'd like to take up the maintainance.*
-
-Build a general-purpose conversational chatbot based on a hot 
-seq2seq approach implemented in [tensorflow](https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html#sequence-to-sequence_basics).
-Since it doesn't produce good results so far, also consider other implementations of [seq2seq](https://github.com/nicolas-ivanov/seq2seq_chatbot_links).
 
 The current results are pretty lousy:
 
@@ -13,25 +8,8 @@ The current results are pretty lousy:
     i am lonely	        - i am not
     nice                - you ' re not going to be okay .
     so rude	            - i ' m sorry .
-    
-Disclaimer: 
 
-* the answers are hand-picked (it looks cooler that way)
-* chatbot has no power to follow the conversation line so far; in the example above it's a just a coincidence (hand-picked one)
-
-Everyone is welcome to investigate the code and suggest the improvements.
-
-**Actual deeds**
-
-* realise how to diversify chatbot answers (currently the most probable one is picked and it's dull)
-
-
-**Papers**
-
-* [Sequence to Sequence Learning with Neural Networks](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)
-* [A Neural Conversational Model](http://arxiv.org/pdf/1506.05869v1.pdf)
-
-**Nice picture**
+**picture**
 
 [![seq2seq](https://4.bp.blogspot.com/-aArS0l1pjHQ/Vjj71pKAaEI/AAAAAAAAAxE/Nvy1FSbD_Vs/s640/2TFstaticgraphic_alt-01.png)](http://4.bp.blogspot.com/-aArS0l1pjHQ/Vjj71pKAaEI/AAAAAAAAAxE/Nvy1FSbD_Vs/s1600/2TFstaticgraphic_alt-01.png)
 
@@ -39,7 +17,7 @@ Curtesy of [this](http://googleresearch.blogspot.ru/2015/11/computer-respond-to-
 
 **Setup**
 
-    git clone git@github.com:nicolas-ivanov/tf_seq2seq_chatbot.git
+    git clone git@github.com:AhmedAbdalazeem/ChatBot.git
     cd tf_seq2seq_chatbot
     bash setup.sh
     
@@ -77,3 +55,11 @@ Otherwise you may need to build tensorflow from source and run the code as follo
 **Requirements**
 
 * [tensorflow](https://www.tensorflow.org/versions/master/get_started/os_setup.html)
+
+
+**References**
+
+https://github.com/nicolas-ivanov/tf_seq2seq_chatbot
+https://github.com/suriyadeepan/easy_seq2seq
+https://github.com/gunthercox/ChatterBot
+https://people.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html
