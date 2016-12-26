@@ -59,7 +59,7 @@ Otherwise you may need to build tensorflow from source and run the code as follo
 
 **References**
 
-https://github.com/nicolas-ivanov/tf_seq2seq_chatbot
-https://github.com/suriyadeepan/easy_seq2seq
-https://github.com/gunthercox/ChatterBot
-https://people.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html
+* https://github.com/nicolas-ivanov/tf_seq2seq_chatbot
+* https://github.com/suriyadeepan/easy_seq2seq
+* https://github.com/gunthercox/ChatterBot
+* https://people.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html
